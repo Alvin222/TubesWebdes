@@ -26,6 +26,10 @@
 	display: inline-block;
 }
 
+.mainMenu {
+	background-color: rgb(105,105,105,0.2);
+}
+
 .menu{
 	width: 10%;
 	padding : 2rem 3rem;
