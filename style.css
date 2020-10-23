@@ -1,0 +1,83 @@
+@import url(font-awesome.min.css);
+
+@font-face {
+	font-family :myfont_1;
+	src : url(../fonts/Countryside-one.ttf);
+}
+@font-face {
+	font-family :myfont_2;
+	src: url(../fonts/alata-regular.ttf);
+}
+@font-face {
+	font-family : article;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+.background {
+	background-color :#931a25;
+}
+
+.main {
+	padding: 5% 2%;
+	margin:auto;
+	border-radius: 15px;
+	background-color: rgb(105,105,105,0.2);
+	box-shadow : 5px 5px 10px 10px rgba(0,0,0,0.4);
+	display: inline-block;
+}
+
+.menu{
+	width: 10%;
+	padding : 2rem 3rem;
+	text-align: center;
+	background-color: #f5efef;
+	margin : 2rem 12.5rem;
+	text-decoration: none;
+	color : #931a25;
+	font-family: myfont_2;
+	border-radius: 5px;
+	float: left;
+}
+.menu:hover{
+	background-color: #888888;
+}
+
+/*.lining {
+	width :1000px;
+	height: 30px;
+	background-color: #0278ae;
+	float:left;
+}*/
+
+.menu2{
+	float:left;
+	padding :20px 8.49rem;
+	text-align: center;
+	background-color: #0278ae;
+	text-decoration: none;
+	color : #ffffff;
+	font-family: myfont_2;
+}
+.menu2:hover{
+	background-color: #00587a;	
+}
+.rounded_pict {
+	float:right;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	border : 4px solid #0278ae
+}
+
+.article {
+	padding :2%;
+	color:#333333;
+	font-family: article;
+	text-align: justify;
+}
+
+h1 {
+	font-family: myfont_1;
+	text-align: center;
+	color: #ffffff
+}
