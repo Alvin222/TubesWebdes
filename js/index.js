@@ -12,6 +12,6 @@ if (media.matches){
 	},2000)
 } else {
 	for (var i=0; i < img.length; i++){
-		content.innerHTML += "<img class='featured_image' src='" + img[i] + "' width='323' height='700'/>";
+		content.innerHTML += "<img class='featured_image' src='" + img[i] + "' width='291' height='700'/>";
 	}
 }
