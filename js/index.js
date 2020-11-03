@@ -7,7 +7,7 @@ if (media.matches){
 	content.innerHTML += "<img class='featured_image' src='" + img[index] + "' width='291' height='700'/>" ;
 	setInterval(function(){
 		if (index > img.length-1) index = 0;
-		document.querySelector(".featured_image").src = img[index]
+		document.querySelector(".featured_image").src = img[index];
 		index++;
 	},2000)
 } else {
