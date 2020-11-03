@@ -1,5 +1,3 @@
-alert("JS WORK");
-
 const img = ["images/drummer.jpg","images/guitarist.jpg","images/pianist.jpg","images/singer.jpg"];
 var media = window.matchMedia("(max-width: 700px)");
 var content = document.querySelector(".content");
