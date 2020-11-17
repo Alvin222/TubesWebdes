@@ -10,6 +10,14 @@
 	font-family : article;
 	src: url(../fonts/OpenSans-Regular.ttf);
 }
+@font-face {
+	font-family: sans-serif;
+	src: url(../fonts/BalsamiqSans-Bold.ttf);
+}
+@font-face {
+	font-family: sans-serif;
+	src: url(../fonts/FREDOKAONE-REGULAR.TTF);
+}
 
 *{
 	box-sizing: border-box;
@@ -44,6 +52,9 @@ header h1 {
 /*Buat nav*/
 nav {
 	margin: 3% 0;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 /*Buat nav*/
 nav li {
