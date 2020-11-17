@@ -1,9 +1,9 @@
-			$(document).ready(function(){
 				$(".p1").slideUp();
 				$(".p2").slideUp();
 				$(".p3").slideUp();
 				$(".p4").slideUp();
 				$(".p5").slideUp();
+			$(document).ready(function(){
 				$(".g1").click(function(){
 					$(".p2").slideUp();
 					$(".p3").slideUp();
