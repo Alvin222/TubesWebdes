@@ -14,10 +14,6 @@
 	font-family: sans-serif;
 	src: url(../fonts/BalsamiqSans-Bold.ttf);
 }
-@font-face {
-	font-family: sans-serif;
-	src: url(../fonts/FREDOKAONE-REGULAR.TTF);
-}
 
 *{
 	box-sizing: border-box;

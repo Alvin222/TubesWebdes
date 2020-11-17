@@ -1,0 +1,230 @@
+.active-page{
+	background-color: #999999;
+	color: white;
+}
+
+.title{
+    font-size: 28px;
+	text-align: center;
+	font-family: "Balsamiq Sans", sans-serif;
+}
+
+h2{	text-align: left; }
+h4{ text-align: left; }
+
+
+/* UNTUK OPSI GENRE INDONESIA DAN BARAT */
+/* ------------------------------------ */
+#genre-option{
+	width: 60%;
+	margin: auto;
+}
+
+.genre-title{
+	font-family: "Balsamiq Sans", sans-serif;
+	text-align: center;
+}
+
+#genre-option div{
+	width: 50%;
+	position: relative;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#genre-option img{
+	display: block;
+	margin: auto;
+	transition: none;
+}
+
+#genre-option a{
+	color: white;
+}
+
+#genre-option div:hover img{
+	width: 90%;
+	transition: width 0.5s;
+}
+
+#genre-option div span{
+	position: absolute;
+	font-size: large;
+	top: 15%;
+	left: 13%;
+	right: 13%;
+	text-align: center;
+}
+
+/* ------------------------------------ */
+
+
+
+/* UNTUK LIST LAGU GENRE INDONESIA DAN BARAT*/
+/* --------------------------------- */
+.list{
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(to right,#f08915, #d83d45);
+	border-radius: 5px;
+    margin-top: 1%;
+	margin-bottom: 1%;
+	position: relative;
+}
+
+.list a{
+	text-decoration: none;
+	color: white;
+}
+
+.song-title{
+	font-size: 25px;
+}
+
+.description{
+	position: absolute;
+	right: 10%;
+	top: 15%;
+	color: white;
+	font-size: 14px;
+	border: 1px solid;
+	border-color: transparent transparent transparent white;
+	padding: 5px 0 0 10px;
+	height: 80px;
+	text-align: left;
+}
+
+.indent{
+	position: absolute;
+	left: 108%;
+	width: 90%;
+}
+
+.preview{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 5px solid white;
+	position: absolute;
+	left: 25px;
+	top: 21%;
+	text-align: center;
+	font-weight: bold;
+	transition: background-color 0.5s;
+}
+
+.list .preview-box{
+	width: 120px;
+	height: 120px;
+	background-color: #000;
+	opacity: 25%;
+	border-radius: 5px 0px 5px;
+	float: left;
+}
+
+.list .text{
+	height: 70px;
+	margin-left: 120px;
+	padding: 1% 2%;
+	text-align: left;
+}
+
+.triangle{
+	border: solid 20px;
+	border-color: transparent transparent transparent white;
+	margin-left: 23px;
+	margin-top: 11px;
+}
+
+/* --------------------------------- */
+
+
+
+/* UNTUK BUTTON */
+/* --------------------------------- */
+#button{
+	float: right;
+	width: 30%;
+}
+
+.btn{
+	display: inline-block;
+	padding: 1.5%;
+	width: 45%;
+	background-color: #1ab126;
+	color: white;
+	margin: 1%;
+	border-radius: 1px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+}
+
+.btn:hover{
+	background-color: #48eb1f;
+	cursor: pointer;
+}
+
+/* --------------------------------- */
+
+@media screen and (max-width: 1100px){
+	#genre-option{ width: 70%; }
+	#genre-option .genre-title{ font-size: x-large; }
+	#genre-option div span{
+		left: 5%;
+		right: 5%;
+		font-size: medium;
+	}
+
+	.title{ font-size: 25px; }
+
+	.description{
+		left: 130px;
+		bottom: 4px;
+		right: auto;
+		top: auto;
+		font-size: 11px;
+		border-color: white transparent transparent;
+		padding: 4px;
+		width: 75%;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.indent{ left: 100px; }
+
+	.btn{ font-size: 11px; }
+	#button{ width: 38%; }
+}
+
+@media screen and (max-width: 720px){
+	#genre-option{ width: 100%; }
+	#genre-option .genre-title{ font-size: large; }
+	#genre-option div span{ font-size: small; }
+
+	.title{	font-size: 20px; }
+	.song-title{ font-size: 15px; }
+
+	.list .text{
+		font-size: 13px;
+		padding: 2% 4%;
+	}
+
+	.description{
+		left: 127px;
+		bottom: 5px;
+		right: auto;
+		top: auto;
+		font-size: 11px;
+		border-color: white transparent transparent;
+		padding: 3px;
+		width: 65%;
+		height: auto;
+	}
+
+	.indent{ left: 100px; }
+
+	.btn{ font-size: 10px; }
+	#button{ width: 95%; }
+}
