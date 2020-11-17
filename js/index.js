@@ -8,7 +8,7 @@ $(document).ready(()=>{
 	if ($(window).width() <= 700) {
 		content.innerHTML += "<img class='index_image' src='" + img[index] + "' width='291' height='700'/>" ;
 	} else {
-		content.innerHTML += "<img class='index_image' src='" + img[index] + "' width='" + (1290) + "' height='"+800+"'/>";
+		content.innerHTML += "<img class='index_image' src='" + img[index] + "' width='" + (1200) + "' height='"+800+"'/>";
 	}
 	setInterval(()=>{
 		if (index > img.length-1) index = 0;
