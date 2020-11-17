@@ -61,7 +61,7 @@ text-decoration : none;
 .gal
 	{
 	text-align : center;
-    border-radius: 15px;
+    	border-radius: 15px;
 	background-color : #931a25;
 	padding : 10px;
 	font-family : article;
@@ -76,6 +76,10 @@ text-decoration : none;
 
 div.gal img{
 	height :10em; 
+}
+
+.p1 , .p2, .p3, .p4, .p5{
+	display: none;
 }
 
 .clear{
