@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BeRecognized - Genre</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/genre.css"/>
+        <!-- <script src="jquery-3.5.1.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <script src="js/genre.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="logo"><a href="#">BR</a></h1>
+		    <p>BeRecognized</p>
+        </header>
+
+        <main class="main">
+			<nav>
+		    	<ul>
+		    		<li><a href="index.html" style="border-radius : 5px 0 0 " >Home</a></li>
+		    		<li><a class="active-page">Genre</a></li>
+		    		<li><a href="vocal.html" >Vocalist</a></li>
+		    		<li><a href="our_prog.html" >Our Program</a></li>
+		    		<li><a href="history.html" style="border-radius : 0 5px 0 0 ">About Us</a></li>
+		    	</ul>
+            </nav>
+            
+            <div class="content">
+                <div id="first-content">
+                    <p class="title">Pilih genre favoritmu!</p>
+                    <br>
+                    <div id="genre-option">
+                        <div class="genre-Indonesia">
+                            <a href="#">
+                                <span><h1 class="genre-title">Indonesia</h1><br>Dengarkan lagu karya anak Bangsa</span>
+                                <img src="images/Indonesia.jpg" alt="Genre Indonesia" width="100%"/>
+                            </a>
+                        </div>
+                        <div class="genre-Barat">
+                            <a href="#">
+                                <span><h1 class="genre-title">Barat</h1><br>Dereten lagu Populer terkini</span>
+                                <img src="images/Barat.jpg" alt="Genre Barat" width="100%"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="second-content">
+                    <h2>Kumpulan lagu cover dari Indonesia</h2>
+                    <h4>Dengarkan lagu yang kamu suka dengan versi yang berbeda disini!</h4>
+                    <br>
+                    <div class="song-list">
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(0)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-indonesia-1.html">                                
+                                <div class="text"><h1 class="song-title">Cantik</h1>cover by Eclat Story</div>
+                                <p class="description">
+                                    Duration <span class="indent">04:20</span><br>
+                                    Original song by <span class="indent">Kahitna</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(1)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-indonesia-2.html">                                
+                                <div class="text"><h1 class="song-title">Tolong</h1>cover by Reza Darmawangsa</div>
+                                <p class="description">
+                                    Duration <span class="indent">03:55</span><br>
+                                    Original song by <span class="indent">Budi Doremi</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(2)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-indonesia-3.html">                                
+                                <div class="text"><h1 class="song-title">Sedang Sayang Sayangnya</h1>cover by Della Firdatia</div>
+                                <p class="description">
+                                    Duration <span class="indent">04:28</span><br>
+                                    Original song by <span class="indent">Mawar de Jongh</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(3)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-indonesia-4.html">                                
+                                <div class="text"><h1 class="song-title">Cinta Karena Cinta</h1>cover by Michela Thea</div>
+                                <p class="description">
+                                    Duration <span class="indent">02:59</span><br>
+                                    Original song by <span class="indent">Judika</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(4)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-indonesia-5.html">                                
+                                <div class="text"><h1 class="song-title">Payung Teduh</h1>cover by Falah Akbar</div>
+                                <p class="description">
+                                    Duration <span class="indent">02:54</span><br>
+                                    Original song by <span class="indent">Akad</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="third-content">
+                    <h2>Kumpulan lagu cover berbahasa Inggris</h2>
+                    <h4>Dengarkan lagu yang kamu suka dengan versi yang berbeda disini!</h4>
+                    <br>
+                    <div class="song-list">
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(5)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-barat-1.html">                                
+                                <div class="text"><h1 class="song-title">Fix You</h1>cover by J.Fla</div>
+                                <p class="description">
+                                    Duration <span class="indent">03:21</span><br>
+                                    Original song by <span class="indent">Coldplay</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(6)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-barat-2.html">                                
+                                <div class="text"><h1 class="song-title">For the Night</h1>(Acoustic Version)<br>cover by Conor Maynard</div>
+                                <p class="description">
+                                    Duration <span class="indent">03:22</span><br>
+                                    Original song by <span class="indent">Conor Maynard</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(7)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-barat-3.html">                                
+                                <div class="text"><h1 class="song-title">You Look So Good In Love</h1>cover by Teddy Swims</div>
+                                <p class="description">
+                                    Duration <span class="indent">03:12</span><br>
+                                    Original song by <span class="indent">George Strait</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(8)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-barat-4.html">                                
+                                <div class="text"><h1 class="song-title">Just the Way You Are</h1>cover by Music Travel Love</div>
+                                <p class="description">
+                                    Duration <span class="indent">04:08</span><br>
+                                    Original song by <span class="indent">Bruno Mars</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="preview-box"></div>
+                            <a href='javascript:void(0);'><div class="preview" onclick="audioPreview(9)"><div class="triangle"></div></div></a>
+                            <a href="lagu/lagu-barat-5.html">                                
+                                <div class="text"><h1 class="song-title">Heaven</h1>cover by Boyce Avenue</div>
+                                <p class="description">
+                                    Duration <span class="indent">04:32</span><br>
+                                    Original song by <span class="indent">Bryan Adams</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="button">
+                    <a href="#logo"><div class="btn">Back To Top</div></a>
+                    <div class="btn" id="switch"></div>
+                </div>
+            </div>
+
+            <audio src="audio/cantik.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/tolong.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/sedang-sayang-sayangnya.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/cinta-karena-cinta.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/payung-teduh.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/fix-you.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/for-the-night.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/you-look-so-good-in-love.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/just-the-way-you-are.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+            <audio src="audio/heaven.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+        </main>
+        
+		<footer>
+		    <p style="margin:2% 0;text-align: center;color: #ffffff;font-family: myfont_2">&copyKelompok 4</p>
+        </footer>
+    </body>
+</html>
