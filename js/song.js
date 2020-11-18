@@ -14,6 +14,6 @@ $(document).ready(function(){
     });
 
     $("#link-box").click(function(){
-        $(".original-link").css("user-select", "all");
+        $("#original-link").css("user-select", "all");
     });
 });
