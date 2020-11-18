@@ -212,18 +212,11 @@ h4{ text-align: left; }
 	}
 
 	.description{
-		left: 127px;
+		left: 135px;
 		bottom: 5px;
-		right: auto;
-		top: auto;
-		font-size: 11px;
-		border-color: white transparent transparent;
 		padding: 3px;
 		width: 65%;
-		height: auto;
 	}
-
-	.indent{ left: 100px; }
 
 	.btn{ font-size: 10px; }
 	#button{ width: 95%; }
