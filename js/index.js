@@ -1,20 +1,20 @@
-const img = ["images/drummer.jpg","images/guitarist.jpg","images/pianist.jpg","images/singer.jpg"];
-var media = window.matchMedia("(max-width: 700px)");
-var content = document.querySelector(".content");
-index = 0;
-
-/*Multiple picture content*/
+ids = ["#welcome","#kalimat1","#kalimat2","#kalimat3"]
+index = 0
+for(var id of ids){
+	$(id).hide();
+}
 $(document).ready(()=>{
-	if ($(window).width() <= 700) {
-		content.innerHTML += "<img class='index_image' src='" + img[index] + "' width='291' height='700'/>" ;
-	} else {
-		content.innerHTML += "<img class='index_image' src='" + img[index] + "' width='" + (1200) + "' height='"+800+"'/>";
-	}
-	setInterval(()=>{
-		if (index > img.length-1) index = 0;
-		$(".index_image").fadeOut(600);
-		$(".index_image").attr('src',img[index]);
-		$(".index_image").fadeIn(1300);
-		index++
-	},2000);
+	$(ids[index]).slideDown(2000);
+	$("#next").click(()=>{
+		index = index < ids.length ? index:-1; 
+		$(ids[index]).hide();
+		$(ids[index+1]).fadeIn(2000)
+		index++;
+	});
+	$("#prev").click(()=>{
+		index = index > -1 ? index:ids.length-1;
+		$(ids[index]).hide();
+		$(ids[index-1]).fadeIn(2000)
+		index--;
+	});
 });
