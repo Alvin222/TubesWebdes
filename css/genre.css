@@ -1,6 +1,7 @@
+.white{ color: white; }
+
 .active-page{
 	background-color: #999999;
-	color: white;
 }
 
 .title{
@@ -28,7 +29,6 @@ h4{ text-align: left; }
 #genre-option div{
 	width: 50%;
 	position: relative;
-	color: white;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -39,7 +39,7 @@ h4{ text-align: left; }
 	transition: none;
 }
 
-#genre-option a{
+#genre-option div a{
 	color: white;
 }
 
@@ -158,7 +158,6 @@ h4{ text-align: left; }
 	padding: 1.5%;
 	width: 45%;
 	background-color: #1ab126;
-	color: white;
 	margin: 1%;
 	border-radius: 1px;
 	font-weight: bold;

@@ -1,4 +1,5 @@
 .bold{ font-weight: bold; }
+.center{ text-align: center; }
 
 .content .container{
     position: relative;
@@ -22,7 +23,6 @@ iframe{
 
 .option{
     margin: 40px 0;
-    text-align: center;
 }
 
 .option li{
@@ -38,13 +38,7 @@ iframe{
     border-radius: 20px;
 }
 
-.option a{ text-decoration: none; }
-
-.content .description{
-    text-align: center;
-}
-
-.description a{ text-decoration: none;}
+.option a, .description a{ text-decoration: none;}
 
 /* .biography{
     color: #fff;
@@ -65,7 +59,6 @@ iframe{
     width: 600px;
     margin: auto;
     text-align: center;
-    min-width: 300px;
 }
 
 #original-link{
@@ -97,14 +90,17 @@ iframe{
 #link-box{ color: #333;}
 
 @media screen and (max-width: 720px){
+    .option li{ margin: 0;}
+    #original-link, .link-button, .about{ width: 100%; }
+
     #original-link{
-        width: 100%;
         border-radius: 25px;
         margin-bottom: 5px;
     }
     .link-button{
-        width: 100%;
         border-radius: 25px;
     }
-    .about{ width: 100%; }
+    .about{
+        font-size: 90%;
+    }
 }
